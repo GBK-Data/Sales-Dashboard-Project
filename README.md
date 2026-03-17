@@ -13,7 +13,7 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 - Data Visualization & Dashboard Design
 
 # 📊 Dataset
-**Source:** [[Sales Dashboard Excel/ link](https://onedrive.live.com/personal/683fb194621b57d6/_layouts/15/doc.aspx?resid=6b3e9809-bf6b-42f0-a8a2-7b6adcfc8711&cid=683fb194621b57d6)]  
+**Source:** [[Sales Dashboard/ link]([https://1drv.ms/x/c/683fb194621b57d6/IQAJmD5ra7_wQqiie2rc_IcRAd-6mJ3RuCBrn4oAggvgXgc?e=Ig6rLM)]  
 **Total rows:** [1000]  
 **Columns:**
 - `OrderID` — unique identifier for each order
