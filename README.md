@@ -1,5 +1,4 @@
 # Sales-Dashboard-Project
-Portfolio project Excel + Power BI + SQL Analysis
 🔹 Overview
 This project analyzes sales data to uncover trends, KPI performance, and business insights using **Excel (Power Query, Pivot Tables)** and **Power BI**.  
 It demonstrates data cleaning, transformation, visualization, and reporting skills relevant for business and analytical roles.
@@ -10,29 +9,43 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 # 🛠️ Tools & Technologies
 - Microsoft Excel (Power Query, Pivot Tables, Charts)
 - Power BI
-- SQL (optional / planned)
+- SQL (planned)
 - Data Visualization & Dashboard Design
 
 # 📊 Dataset
 **Source:** [[Sales Dashboard Excel/ link](https://onedrive.live.com/personal/683fb194621b57d6/_layouts/15/doc.aspx?resid=6b3e9809-bf6b-42f0-a8a2-7b6adcfc8711&cid=683fb194621b57d6)]  
-**Total rows:** [Number of records]  
+**Total rows:** [1000]  
 **Columns:**
-- `OrderDate` — date of the transaction  
-- `Region` — sales region  
-- `ProductCategory` — product type  
-- `SalesAmount` — numeric value of sale  
+- `OrderID` — unique identifier for each order
+- `Date` — date of the transaction
+- `Product` — product name
+- `Category` — product category
+- `Region` — sales region
+- `Country` — country of sale
+- `SalesRep` — sales representative
+- `Units` — number of units sold
+- `UnitPrice` — price per unit
+- `Revenue` — total revenue per order
+- `CheckRevenue` — verification column for revenue
+- `DateMonths` — month extracted from Date
+- `DateDays` — day extracted from Date
 
-# Process
--Cleaned and prepared raw data in Power Query
--Built Pivot Tables for analysis
--Created a dashboard in Excel / Power BI
+# Notes:  
+- Dataset cleaned and transformed using Power Query.
+- Missing values handled / duplicates removed.  
+- Data ready for Pivot Table and Power BI analysis.
 
 # Key Insights
--Sales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
--A small number of products/categories generate the majority of total revenue, suggesting a Pareto effect in sales distribution.
--Certain regions outperform others significantly, highlighting opportunities for targeted expansion and marketing.
--Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
--Top-performing products consistently contribute to revenue growth, making them key drivers of business performance.
+-S ales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
+- A small number of products/categories generate the majority of total revenue, suggesting a Pareto effect in sales distribution.
+- Certain regions outperform others significantly, highlighting opportunities for targeted expansion and marketing.
+- Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
+- Top-performing products consistently contribute to revenue growth, making them key drivers of business performance.
+
+# ⚙️ How to Run / Use
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/GBK-Data/Sales-Dashboard-Project.git
 
 # Dashboards preview
 <img width="1852" height="613" alt="image" src="https://github.com/user-attachments/assets/7f445539-da41-428d-b9d6-9777b7ecb5f5" />
