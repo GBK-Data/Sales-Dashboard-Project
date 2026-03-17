@@ -51,5 +51,19 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 5. Open Power BI file for interactive views
 
 # Dashboards preview
+# Excel Dashboard
 <img width="1852" height="613" alt="image" src="https://github.com/user-attachments/assets/7f445539-da41-428d-b9d6-9777b7ecb5f5" />
+
+- Chart shows total Revenue by Region
+- East Region has the highest Sales
+- Laptop is bestselling Product
+- December was the best Month
+- February sold the most Units
+
+  # Power BI Dashboard
 <img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/f386f245-48c2-4c75-b403-159b3e9c6810" />
+
+- Germany brought the most Revenue
+- 8214 Total Units was sold
+- Total Sum of Revenue is 1.77M
+- October had the lowest Revenue
