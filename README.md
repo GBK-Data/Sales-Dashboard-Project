@@ -13,5 +13,3 @@ Portfolio project Excel + Power BI + SQL Analysis
 -Cleaned and prepared raw data in Power Query
 -Built Pivot Tables for analysis
 -Created a dashboard in Excel / Power BI
-
-# Project Files
