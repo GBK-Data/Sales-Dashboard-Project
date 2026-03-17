@@ -37,7 +37,7 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 - Data ready for Pivot Table and Power BI analysis.
 
 # Key Insights
--S ales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
+- Sales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
 - A small number of products/categories generate the majority of total revenue, suggesting a Pareto effect in sales distribution.
 - Certain regions outperform others significantly, highlighting opportunities for targeted expansion and marketing.
 - Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
@@ -56,14 +56,14 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 
 - Chart shows total Revenue by Region
 - East Region has the highest Sales
-- Laptop is bestselling Product
+- Laptop is the bestselling Product category
 - December was the best Month
 - February sold the most Units
 
   # Power BI Dashboard
 <img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/f386f245-48c2-4c75-b403-159b3e9c6810" />
 
-- Germany brought the most Revenue
-- 8214 Total Units was sold
+- Germany generated the most Revenue among all countries
+- 8,214 Total Units was sold
 - Total Sum of Revenue is 1.77M
-- October had the lowest Revenue
+- October had the lowest Revenue of the year 
