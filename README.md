@@ -42,10 +42,12 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 - Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
 - Top-performing products consistently contribute to revenue growth, making them key drivers of business performance.
 
-# ⚙️ How to Run / Use
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/GBK-Data/Sales-Dashboard-Project.git
+## ⚙️ How to Run
+1. Clone repo
+2. Open `Sales_Dashboard.xlsx` in Excel
+3. Refresh data
+4. Explore Pivot Tables & Charts
+5. Open Power BI file for interactive views
 
 # Dashboards preview
 <img width="1852" height="613" alt="image" src="https://github.com/user-attachments/assets/7f445539-da41-428d-b9d6-9777b7ecb5f5" />
