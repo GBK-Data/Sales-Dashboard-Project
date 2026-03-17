@@ -1,13 +1,26 @@
 # Sales-Dashboard-Project
 Portfolio project Excel + Power BI + SQL Analysis
+🔹 Overview
+This project analyzes sales data to uncover trends, KPI performance, and business insights using **Excel (Power Query, Pivot Tables)** and **Power BI**.  
+It demonstrates data cleaning, transformation, visualization, and reporting skills relevant for business and analytical roles.
 
-# Project Goals
--Create a sales dashboard in Excel using Power Query and Pivot Tables to visualize key data.
+# Goal:  
+Enable stakeholders to quickly understand sales performance, identify top products, regional trends, and seasonality effects.
 
-# Tools Used
--Excel: (Power Query, Pivot Tables)
--Power BI: (dashboard, visualizations)
--SQL: soon
+# 🛠️ Tools & Technologies
+- Microsoft Excel (Power Query, Pivot Tables, Charts)
+- Power BI
+- SQL (optional / planned)
+- Data Visualization & Dashboard Design
+
+# 📊 Dataset
+**Source:** [[Sales Dashboard Excel/ link](https://onedrive.live.com/personal/683fb194621b57d6/_layouts/15/doc.aspx?resid=6b3e9809-bf6b-42f0-a8a2-7b6adcfc8711&cid=683fb194621b57d6)]  
+**Total rows:** [Number of records]  
+**Columns:**
+- `OrderDate` — date of the transaction  
+- `Region` — sales region  
+- `ProductCategory` — product type  
+- `SalesAmount` — numeric value of sale  
 
 # Process
 -Cleaned and prepared raw data in Power Query
