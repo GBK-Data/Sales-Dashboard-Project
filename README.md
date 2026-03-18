@@ -7,10 +7,25 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 Enable stakeholders to quickly understand sales performance, identify top products, regional trends, and seasonality effects.
 
 ## 🛠️ Tools & Technologies
-- Microsoft Excel (Power Query, Pivot Tables, Charts)
-- Power BI (Sales Dashboard, Interactive Analysis)
-- SQL (Aggregation Queries, Data Analysis)
-- Data Visualization & Dashboard Design
+
+**Microsoft Excel**
+- Power Query
+- Pivot Tables
+- Charts & Visualization
+
+**Power BI**
+- Sales Dashboard
+- Interactive Analysis
+- Filters & Slicers
+- KPI Cards
+
+**SQL (Structured Query Language)**
+- GROUP BY, SUM, AVG, COUNT, HAVING, LIMIT
+- Extract, Sort, Filter
+
+**Data Visualization & Dashboard Design**
+- Designed dashboards for insights
+- Interactive and user‑friendly visuals
 
 ## 📊 Dataset
 **Source:** [[Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQAJmD5ra7_wQqiie2rc_IcRAd-6mJ3RuCBrn4oAggvgXgc]
