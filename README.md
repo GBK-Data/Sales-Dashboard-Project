@@ -68,7 +68,7 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 - Total Sum of Revenue is 1.77M
 - October had the lowest Revenue of the year 
 
-# SQL
+# SQL Queries
 1. Total Revenue by Region
 Shows total revenue for each region, sorted from highest to lowest.
 <img width="407" height="116" alt="image" src="https://github.com/user-attachments/assets/5ae392e0-a87a-4a46-bb05-d307b934f9b6" />
