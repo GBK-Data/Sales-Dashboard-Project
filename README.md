@@ -8,8 +8,8 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 
 ## 🛠️ Tools & Technologies
 - Microsoft Excel (Power Query, Pivot Tables, Charts)
-- Power BI
-- SQL (planned)
+- Power BI (Sales Dashboard, Interactive Analysis)
+- SQL (Aggregation Queries, Data Analysis)
 - Data Visualization & Dashboard Design
 
 ## 📊 Dataset
