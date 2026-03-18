@@ -3,7 +3,7 @@
 This project analyzes sales data to uncover trends, KPI performance, and business insights using **Excel (Power Query, Pivot Tables)** and **Power BI**.  
 It demonstrates data cleaning, transformation, visualization, and reporting skills relevant for business and analytical roles.
 
-# Goal:  
+# Goal
 Enable stakeholders to quickly understand sales performance, identify top products, regional trends, and seasonality effects.
 
 ## 🛠️ Tools & Technologies
