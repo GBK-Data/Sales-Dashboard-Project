@@ -29,7 +29,7 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 
 # Dashboards preview
 ## Excel Dashboard
-<img width="1852" height="613" alt="image" src="https://github.com/user-attachments/assets/7f445539-da41-428d-b9d6-9777b7ecb5f5" />
+<img width="1833" height="592" alt="image" src="https://github.com/user-attachments/assets/e86dccab-a1af-4597-9111-9931b795e202" />
 
 - Chart shows total Revenue by Region
 - East Region has the highest Sales
@@ -82,7 +82,7 @@ Counts the total number of units sold across all sales.
 <img width="285" height="61" alt="image" src="https://github.com/user-attachments/assets/9314950f-cdf8-4e67-a90d-f2b466443ba3" />
 
 # 📊 Dataset
-**Source:** [Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQAJmD5ra7_wQqiie2rc_IcRAd-6mJ3RuCBrn4oAggvgXgc]
+**Source:** [Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQBqnRs9HBY4T6GTvhT2MzPoAZ8Pew2Mhqjn2-PJ5SUUeWw]
 
 ## ⚙️ How to Run
 1. Clone repo
