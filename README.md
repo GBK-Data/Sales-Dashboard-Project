@@ -26,6 +26,25 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 **Data Visualization & Dashboard Design**
 - Designed dashboards for insights
 - Interactive and user‑friendly visuals
+
+# Dashboards preview
+## Excel Dashboard
+<img width="1852" height="613" alt="image" src="https://github.com/user-attachments/assets/7f445539-da41-428d-b9d6-9777b7ecb5f5" />
+
+- Chart shows total Revenue by Region
+- East Region has the highest Sales
+- Laptop is the bestselling Product category
+- December was the best Month
+- February sold the most Units
+
+  ## Power BI Dashboard
+<img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/f386f245-48c2-4c75-b403-159b3e9c6810" />
+
+- Germany generated the most Revenue among all countries
+- 8,214 Total Units was sold
+- Total Sum of Revenue is 1.77M
+- October had the lowest Revenue of the year />
+
 # SQL Queries
 ## 1. Total Revenue by Region
 Shows total revenue for each region, sorted from highest to lowest.
@@ -62,11 +81,22 @@ Counts the total number of units sold across all sales.
 
 <img width="285" height="61" alt="image" src="https://github.com/user-attachments/assets/9314950f-cdf8-4e67-a90d-f2b466443ba3" />
 
-
-
-
 ## 📊 Dataset
 **Source:** [[Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQAJmD5ra7_wQqiie2rc_IcRAd-6mJ3RuCBrn4oAggvgXgc]
+
+## ⚙️ How to Run
+1. Clone repo
+2. Open `Sales_Dashboard.xlsx` in Excel
+3. Refresh data
+4. Explore Pivot Tables & Charts
+5. Open Power BI file for interactive views
+
+## Key Insights
+- Sales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
+- A small number of products/categories generate the majority of total revenue, suggesting a Pareto effect in sales distribution.
+- Certain regions outperform others significantly, highlighting opportunities for targeted expansion and marketing.
+- Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
+- Top-performing products consistently contribute to revenue growth, making them key drivers of business performance.
 
 **Total rows:** [1000]  
 **Columns:**
@@ -88,73 +118,3 @@ Counts the total number of units sold across all sales.
 - Dataset cleaned and transformed using Power Query.
 - Missing values handled / duplicates removed.  
 - Data ready for Pivot Table and Power BI analysis.
-
-## Key Insights
-- Sales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
-- A small number of products/categories generate the majority of total revenue, suggesting a Pareto effect in sales distribution.
-- Certain regions outperform others significantly, highlighting opportunities for targeted expansion and marketing.
-- Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
-- Top-performing products consistently contribute to revenue growth, making them key drivers of business performance.
-
-## ⚙️ How to Run
-1. Clone repo
-2. Open `Sales_Dashboard.xlsx` in Excel
-3. Refresh data
-4. Explore Pivot Tables & Charts
-5. Open Power BI file for interactive views
-
-# Dashboards preview
-## Excel Dashboard
-<img width="1852" height="613" alt="image" src="https://github.com/user-attachments/assets/7f445539-da41-428d-b9d6-9777b7ecb5f5" />
-
-- Chart shows total Revenue by Region
-- East Region has the highest Sales
-- Laptop is the bestselling Product category
-- December was the best Month
-- February sold the most Units
-
-  ## Power BI Dashboard
-<img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/f386f245-48c2-4c75-b403-159b3e9c6810" />
-
-- Germany generated the most Revenue among all countries
-- 8,214 Total Units was sold
-- Total Sum of Revenue is 1.77M
-- October had the lowest Revenue of the year 
-
-# SQL Queries
-## 1. Total Revenue by Region
-Shows total revenue for each region, sorted from highest to lowest.
-
-<img width="407" height="116" alt="image" src="https://github.com/user-attachments/assets/5ae392e0-a87a-4a46-bb05-d307b934f9b6" />
-
-## 2. Average Unit Price per Product
-Calculates the average price per unit for each product.
-
-<img width="458" height="107" alt="image" src="https://github.com/user-attachments/assets/1bca1b1f-7f21-4b61-80b1-e300ca6e5078" />
-
-## 3. Number of Unique Orders per Region
-Counts distinct orders in each region.
-
-<img width="543" height="108" alt="image" src="https://github.com/user-attachments/assets/c5e47cc0-b0a8-47b4-83e1-5eedb5518d55" />
-
-## 4. Top Performing Sales Representatives (Revenue > 10,000)
-Shows total revenue per sales rep for those who exceeded $10,000, sorted highest first.
-
-<img width="448" height="142" alt="image" src="https://github.com/user-attachments/assets/a657954e-3933-4a13-9d95-09d0be29059e" />
-
-## 5. Total Revenue per Product
-Calculates total revenue generated by each product.
-
-<img width="436" height="107" alt="image" src="https://github.com/user-attachments/assets/75b39014-4d64-4f37-b3e3-374b9651647e" />
-
-## 6. Monthly Revenue
-Shows total revenue per month.
-
-<img width="648" height="111" alt="image" src="https://github.com/user-attachments/assets/3e1ac290-0bdf-4f49-b513-63a810849a11" />
-
-## 7. Total Units Sold
-Counts the total number of units sold across all sales.
-
-<img width="285" height="61" alt="image" src="https://github.com/user-attachments/assets/9314950f-cdf8-4e67-a90d-f2b466443ba3" />
-
-
