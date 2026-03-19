@@ -81,8 +81,8 @@ Counts the total number of units sold across all sales.
 
 <img width="285" height="61" alt="image" src="https://github.com/user-attachments/assets/9314950f-cdf8-4e67-a90d-f2b466443ba3" />
 
-## 📊 Dataset
-**Source:** [[Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQAJmD5ra7_wQqiie2rc_IcRAd-6mJ3RuCBrn4oAggvgXgc]
+# 📊 Dataset
+**Source:** [Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQAJmD5ra7_wQqiie2rc_IcRAd-6mJ3RuCBrn4oAggvgXgc]
 
 ## ⚙️ How to Run
 1. Clone repo
