@@ -43,7 +43,7 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 - Germany generated the most Revenue among all countries
 - 8,214 Total Units was sold
 - Total Sum of Revenue is 1.77M
-- October had the lowest Revenue of the year />
+- October had the lowest Revenue of the year
 
 # SQL Queries
 ## 1. Total Revenue by Region
