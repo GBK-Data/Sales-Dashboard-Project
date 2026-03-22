@@ -27,6 +27,7 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 
 # Dashboards preview
 ## Excel Dashboard
+[Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQBqnRs9HBY4T6GTvhT2MzPoAZ8Pew2Mhqjn2-PJ5SUUeWw]
 <img width="1833" height="592" alt="image" src="https://github.com/user-attachments/assets/e86dccab-a1af-4597-9111-9931b795e202" />
 
   ## Power BI Dashboard
@@ -38,12 +39,12 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 - Which Categories have the highest sales volume
 - How does Revenue change over time
 ## Key Insights:
-- Germany generated the most Revenue among all countries
-- The East generated the highest Revenue 
+- Germany generated the most Revenue among all countries, showing it's our strongest market
+- The East generated the highest Revenue, indicating focus on regional performance
 - Laptop is the bestselling Product, suggesting a focus for marketing and inventory planning.
 - Hardware slightly outsells Accessories, indicating higher demand for hardware products
 - December had the highest Revenue and February had the highest Revenue of the year
-- October generated the lowest Revenue of the year
+- October generated the lowest Revenue, which might need attention for sales strategy
 
 # SQL Queries
 ## 1. Total Revenue by Region
@@ -99,6 +100,11 @@ Counts the total number of units sold across all sales.
 - `CheckRevenue` — verification column for revenue
 - `DateMonths` — month extracted from Date
 - `DateDays` — day extracted from Date
+
+## Future Improvements:
+- Add more complex SQL queries (JOINs, CTEs)
+- Perform customer segmentation
+- Expand dashboard with predictive metrics
 
 ## Notes:  
 - Dataset cleaned and transformed using Power Query.
