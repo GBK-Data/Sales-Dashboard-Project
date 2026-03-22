@@ -28,6 +28,7 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 # Dashboards preview
 ## Excel Dashboard
 [Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQBqnRs9HBY4T6GTvhT2MzPoAZ8Pew2Mhqjn2-PJ5SUUeWw]
+
 <img width="1833" height="592" alt="image" src="https://github.com/user-attachments/assets/e86dccab-a1af-4597-9111-9931b795e202" />
 
   ## Power BI Dashboard
@@ -81,9 +82,6 @@ Shows total revenue per month.
 Counts the total number of units sold across all sales.
 
 <img width="285" height="61" alt="image" src="https://github.com/user-attachments/assets/9314950f-cdf8-4e67-a90d-f2b466443ba3" />
-
-# 📊 Dataset
-**Source:** [Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQBqnRs9HBY4T6GTvhT2MzPoAZ8Pew2Mhqjn2-PJ5SUUeWw]
 
 **Total rows:** [1000]  
 **Columns:**
