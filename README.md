@@ -43,9 +43,10 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 - Germany generated the most Revenue among all countries, showing it's our strongest market
 - The East generated the highest Revenue, indicating focus on regional performance
 - Laptop is the bestselling Product, suggesting a focus for marketing and inventory planning.
-- Hardware slightly outsells Accessories, indicating higher demand for hardware products
+- Hardware slightly outsells other accessories, indicating higher demand for hardware products
 - December had the highest Revenue and February had the highest Revenue of the year
 - October generated the lowest Revenue, which might need attention for sales strategy
+- Revenue trends reflect seasonal peaks and troughs, helping to plan inventory and marketing strategies
 
 # SQL Queries
 ## 1. Total Revenue by Region
