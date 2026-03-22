@@ -1,10 +1,8 @@
 # Sales-Dashboard-Project
-# 🔹 Overview
+
+# Project Title
 This project analyzes sales data to uncover trends, KPI performance, and business insights using **Excel (Power Query, Pivot Tables)** and **Power BI**.  
 It demonstrates data cleaning, transformation, visualization, and reporting skills relevant for business and analytical roles.
-
-# Goal
-Enable stakeholders to quickly understand sales performance, identify top products, regional trends, and seasonality effects.
 
 ## 🛠️ Tools & Technologies
 
@@ -31,19 +29,21 @@ Enable stakeholders to quickly understand sales performance, identify top produc
 ## Excel Dashboard
 <img width="1833" height="592" alt="image" src="https://github.com/user-attachments/assets/e86dccab-a1af-4597-9111-9931b795e202" />
 
-- Chart shows total Revenue by Region
-- East Region has the highest Sales
-- Laptop is the bestselling Product category
-- December was the best Month
-- February sold the most Units
-
   ## Power BI Dashboard
 <img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/f386f245-48c2-4c75-b403-159b3e9c6810" />
 
+## An interactive dashboards was created to visualize:
+- Which Region and Country generates the most Revenue
+- Which Products contribute the most to total sales
+- Which Categories have the highest sales volume
+- How does Revenue change over time
+## Key Insights:
 - Germany generated the most Revenue among all countries
-- 8,214 Total Units was sold
-- Total Sum of Revenue is 1.77M
-- October had the lowest Revenue of the year
+- The East generated the highest Revenue 
+- Laptop is the bestselling Product, suggesting a focus for marketing and inventory planning.
+- Hardware slightly outsells Accessories, indicating higher demand for hardware products
+- December had the highest Revenue and February had the highest Revenue of the year
+- October generated the lowest Revenue of the year
 
 # SQL Queries
 ## 1. Total Revenue by Region
@@ -84,20 +84,6 @@ Counts the total number of units sold across all sales.
 # 📊 Dataset
 **Source:** [Sales Dashboard/ https://1drv.ms/x/c/683fb194621b57d6/IQBqnRs9HBY4T6GTvhT2MzPoAZ8Pew2Mhqjn2-PJ5SUUeWw]
 
-## ⚙️ How to Run
-1. Clone repo
-2. Open `Sales_Dashboard.xlsx` in Excel
-3. Refresh data
-4. Explore Pivot Tables & Charts
-5. Open Power BI file for interactive views
-
-## Key Insights
-- Sales show clear seasonal trends, with peaks in specific months/quarters, indicating strong time-based demand patterns.
-- A small number of products/categories generate the majority of total revenue, suggesting a Pareto effect in sales distribution.
-- Certain regions outperform others significantly, highlighting opportunities for targeted expansion and marketing.
-- Sales performance is not evenly distributed over time, with noticeable fluctuations that could impact forecasting and inventory planning.
-- Top-performing products consistently contribute to revenue growth, making them key drivers of business performance.
-
 **Total rows:** [1000]  
 **Columns:**
 - `OrderID` — unique identifier for each order
@@ -117,4 +103,3 @@ Counts the total number of units sold across all sales.
 ## Notes:  
 - Dataset cleaned and transformed using Power Query.
 - Missing values handled / duplicates removed.  
-- Data ready for Pivot Table and Power BI analysis.
