@@ -44,7 +44,7 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 - The East generated the highest revenue, indicating focus on regional performance
 - Laptop is the bestselling product, suggesting a focus for marketing and inventory planning.
 - Hardware slightly outsells other accessories, indicating higher demand for hardware products
-- December had the highest revenue, while October recorded the lowest
+- December had the highest revenue of the year
 - October generated the lowest revenue, which might need attention for sales strategy
 - Revenue trends reflect seasonal peaks and troughs, helping to plan inventory and marketing strategies
 
