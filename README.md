@@ -4,6 +4,13 @@
 This project analyzes sales data to uncover trends, KPI performance, and business insights using **Excel (Power Query, Pivot Tables)** and **Power BI**.  
 It demonstrates data cleaning, transformation, visualization, and reporting skills relevant for business and analytical roles.
 
+## Business Questions
+This project aims to answer:
+1. Which products sell the most and the least? (Top & Worst selling products)
+2. How does sales trend over time? (Monthly analysis)
+3. Who are the best clients and what do they buy? (Best SalesRep & Products they buy)
+4. How can the company improve sales based on the analysis? (Improving company)
+
 ## 🛠️ Tools & Technologies
 
 **Microsoft Excel**
@@ -127,6 +134,8 @@ ORDER BY TotalUnits DESC;
 ```
 
 **Total rows:** [1000]  
+**File:** Monthly_Sales_Dashboard.csv
+**Source:** fictional dataset for practice
 **Columns:**
 - `OrderID` — unique identifier for each order
 - `Date` — date of the transaction
@@ -141,6 +150,15 @@ ORDER BY TotalUnits DESC;
 - `CheckRevenue` — verification column for revenue
 - `DateMonths` — month extracted from Date
 - `DateDays` — day extracted from Date
+## Dataset - Sample Rows
+
+| OrderID | Date       | Product     | Category    | Region | Country | SalesRep | Units | UnitPrice | Revenue | CheckRevenue |
+|---------|------------|------------|------------|--------|---------|----------|-------|----------|---------|--------------|
+| 1       | 7/28/2025  | Mouse       | Accessories| East   | USA     | Anna     | 5     | 17.52    | 87.6    | 87.6         |
+| 2       | 6/24/2025  | Webcam      | Hardware   | North  | Canada  | John     | 9     | 86.59    | 779.31  | 779.31       |
+| 3       | 5/6/2025   | Headphones  | Accessories| South  | USA     | Lucas    | 9     | 66.51    | 598.59  | 598.59       |
+| 4       | 2/5/2025   | Keyboard    | Accessories| North  | Germany | Marta    | 15    | 46.32    | 694.8   | 694.8        |
+| 5       | 12/8/2025  | Keyboard    | Accessories| South  | Canada  | Anna     | 15    | 38.84    | 582.6   | 582.6        |
 
 ## Future Improvements:
 - Add more complex SQL queries (JOINs, CTEs)
@@ -149,4 +167,10 @@ ORDER BY TotalUnits DESC;
 
 ## Notes:  
 - Dataset cleaned and transformed using Power Query.
-- Missing values handled / duplicates removed.  
+- Missing values handled / duplicates removed.
+
+## How to Explore
+1. Download `Monthly_Sales_Dashboard.csv`
+2. Open the Excel file or Power BI dashboard.
+3. Review the SQL queries to see how the data was analyzed.
+4. Use the dashboards to explore sales trends and insights.
