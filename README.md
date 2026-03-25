@@ -34,36 +34,36 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
   ## Power BI Dashboard
 <img width="1262" height="710" alt="image" src="https://github.com/user-attachments/assets/f386f245-48c2-4c75-b403-159b3e9c6810" />
 
-## An interactive dashboards was created to visualize:
-- Which Region and Country generates the most Revenue
-- Which Products contribute the most to total sales
-- Which Categories have the highest sales volume
-- How does Revenue change over time
+## The dashboard provides insights into:
+- Which region and country generates the most revenue
+- Which products contribute the most to total sales
+- Which categories have the highest sales volume
+- How revenue changes over time
 ## Key Insights:
-- Germany generated the most Revenue among all countries, showing it's our strongest market
-- The East generated the highest Revenue, indicating focus on regional performance
-- Laptop is the bestselling Product, suggesting a focus for marketing and inventory planning.
+- Germany generated the most revenue among all countries, showing it's our strongest market
+- The East generated the highest revenue, indicating focus on regional performance
+- Laptop is the bestselling product, suggesting a focus for marketing and inventory planning.
 - Hardware slightly outsells other accessories, indicating higher demand for hardware products
-- December had the highest Revenue and February had the highest Revenue of the year
-- October generated the lowest Revenue, which might need attention for sales strategy
+- December had the highest revenue and February had the highest revenue of the year
+- October generated the lowest revenue, which might need attention for sales strategy
 - Revenue trends reflect seasonal peaks and troughs, helping to plan inventory and marketing strategies
 
 # SQL Queries
 ## 1. Total Revenue by Region and Country
-This query helps identify which Regions and Countries generates the most sales.
-It's also shows us underperforming Regions and Countries, so we know where improvements are needed.
+This query calculates total revenue by region and country.
+Also highlights underperforming regions and countries that may require improvement.
+Insight: Germany and the East region generate the highest revenue, making them the strongest performers.
 ```sql
 SELECT Sales.Region, Sales.Country, SUM(Sales.Revenue) AS TotalRevenue
 FROM Sales
-LEFT JOIN Countries
-ON Sales.Country = Countries.CountryName
 GROUP BY Sales.Region, Sales.Country
 ORDER BY TotalRevenue DESC;
 ```
 
 ## 2. Average Unit Price per Product
-Shows average Unit Price, Total Units sold, and Revenue per Product.
-Identifying best-selling Products, and Revenue contribution per product.
+Shows average unit price, total Units sold, and revenue per product.
+Helps identify best-selling products and their contribution to overall revenue.
+Insight: Laptop has the highest average unit price and generates the most revenue among all products.
 ```sql
 SELECT Product, AVG(UnitPrice) AS AverageUnitPrice,
 SUM(Units) AS TotalUnitsSold,
@@ -73,8 +73,9 @@ GROUP BY Product
 ORDER BY AverageUnitPrice DESC;
 ```
 ## 3. Number of Unique Orders per Region
-Counts unique Orders and sums Revenue and Units per Region. 
-This helps to understand sales distribution and order volume by Region.
+Counts unique orders and sums revenue and units per region. 
+This helps to understand sales distribution and order volume by region.
+Insight: The East region has the highest number of orders, indicating strong sales activity.
 ```sql
 SELECT Region, COUNT(DISTINCT OrderID) AS UniqueOrders,
 SUM(Revenue) AS TotalRevenue,
@@ -84,8 +85,9 @@ GROUP BY Region
 ORDER BY UniqueOrders DESC;
 ```
 
-## 4. Top Performing Sales Representatives (Revenue > 10,000)
-Shows total revenue per SalesRep for those who exceeded $10,000 Revenue, sorted highest first.
+## 4. Top Performing Sales Representatives (Revenue > $10,000 revenue).
+Shows total revenue per sales representatives for those who exceeded $10,000 revenue, sorted highest first.
+Insight: Anna generates the highest revenue, making her the top-performing sales representative.
 ```sql
 SELECT SalesRep, SUM(Revenue) AS TotalRevenue,
 COUNT(DISTINCT OrderID) AS OrdersHandled
@@ -96,7 +98,9 @@ ORDER BY TotalRevenue DESC;
 ```
 
 ## 5. Total Revenue per Product
-This query calculates Total Revenue for each product, helping identify top-performing products based on sales.
+Calculates total revenue and units sold per product.
+Helps identify which products contribute the most to overall sales.
+Insight: Laptop generates the highest total revenue, making it the key product for the business.
 ```sql
 SELECT Product, SUM(Revenue) AS TotalRevenue,
 SUM(Units) AS TotalUnits
@@ -105,7 +109,8 @@ GROUP BY Product
 ORDER BY TotalRevenue DESC;
 ```
 ## 6. Monthly Revenue by Regions
-This query analyzes total Revenue by Regions over time helping identify trends, seasonality, and performance differences across Regions
+This query analyzes total revenue by regions over time, helping identify trends, seasonality, and performance differences across regions
+Insight: December shows the highest revenue, while October records the lowest, indicating seasonality in sales.
 ```sql
 SELECT Region, MONTH(Date) AS Month, SUM(Revenue) AS TotalRevenue
 FROM Sales
@@ -113,12 +118,13 @@ GROUP BY Region, MONTH(Date)
 ORDER BY Region, Month;
 ```
 ## 7. Which Product sold the most Units
-Counts the total number of Products that has been Sold overall
+This query calculates total units sold per product, helping identify which product is the most popular
+Insight: Laptop has the highest number of units sold, confirming its popularity among customers.
 ```sql
 SELECT Product, SUM(Units) AS TotalUnits
 FROM Sales
 GROUP BY Product
-ORDER BY SUM(Units) DESC;
+ORDER BY TotalUnits DESC;
 ```
 
 **Total rows:** [1000]  
