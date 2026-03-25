@@ -44,7 +44,7 @@ It demonstrates data cleaning, transformation, visualization, and reporting skil
 - The East generated the highest revenue, indicating focus on regional performance
 - Laptop is the bestselling product, suggesting a focus for marketing and inventory planning.
 - Hardware slightly outsells other accessories, indicating higher demand for hardware products
-- December had the highest revenue and February had the highest revenue of the year
+- December had the highest revenue, while October recorded the lowest
 - October generated the lowest revenue, which might need attention for sales strategy
 - Revenue trends reflect seasonal peaks and troughs, helping to plan inventory and marketing strategies
 
@@ -85,7 +85,7 @@ GROUP BY Region
 ORDER BY UniqueOrders DESC;
 ```
 
-## 4. Top Performing Sales Representatives (Revenue > $10,000 revenue).
+## 4. Top Performing Sales Representatives (Revenue > $10,000).
 Shows total revenue per sales representatives for those who exceeded $10,000 revenue, sorted highest first.
 Insight: Anna generates the highest revenue, making her the top-performing sales representative.
 ```sql
@@ -109,7 +109,7 @@ GROUP BY Product
 ORDER BY TotalRevenue DESC;
 ```
 ## 6. Monthly Revenue by Regions
-This query analyzes total revenue by regions over time, helping identify trends, seasonality, and performance differences across regions
+This query analyzes total revenue by regions over time, helping identify trends, seasonality, and performance differences across regions.
 Insight: December shows the highest revenue, while October records the lowest, indicating seasonality in sales.
 ```sql
 SELECT Region, MONTH(Date) AS Month, SUM(Revenue) AS TotalRevenue
@@ -118,7 +118,7 @@ GROUP BY Region, MONTH(Date)
 ORDER BY Region, Month;
 ```
 ## 7. Which Product sold the most Units
-This query calculates total units sold per product, helping identify which product is the most popular
+This query calculates total units sold per product, helping identify which product is the most popular.
 Insight: Laptop has the highest number of units sold, confirming its popularity among customers.
 ```sql
 SELECT Product, SUM(Units) AS TotalUnits
